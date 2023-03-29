@@ -1,0 +1,125 @@
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    overflow-x: hidden;
+
+}
+.contenedor{
+    top: 370px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card{
+    width: 340px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    box-shadow: 4px 18px 20px 4px hsl(218, 23%, 16%);
+    padding: 8px;
+}
+.mobile-img{
+    padding-bottom: 24px;
+}
+
+.desktop-img{
+    display: none;
+}
+div.dice{
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+div.dice img{
+    width: 18px;
+    height: 18px;
+    padding-top: 10px;
+}
+div.padre{
+    position: relative;
+}
+div.hijo{
+    bottom: -25px;
+    left: 158px;
+    position: absolute;
+}
+div.dice:hover{
+    box-shadow: 2px 2px 25px 1px #53ffab;
+}
+p.numAdvice{
+    color: #53ffab;
+    font-family: manropeextralight;
+    letter-spacing: 3px;
+}
+p.quote{
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+}
+@media only screen and (min-width: 375px){
+    body{
+        background-color: hsl(218, 23%, 16%);
+    }
+    .contenedor{
+        top: 60%;
+        transform: translateY(14vw);
+    }
+    .card{
+        width: 600px;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: hsl(217, 19%, 24%);
+        border-radius: 15px;
+        box-shadow: 4px 18px 20px 4px hsl(218, 23%, 16%);
+    }
+    div.dice{
+        background-color: hsl(150, 100%, 66%);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        transition: all .4s ease;
+    }
+    div.dice img{
+        width: 18px;
+        height: 18px;
+        padding-top: 10px;
+    }
+    div.padre{
+        position: relative;
+    }
+    div.hijo{
+        bottom: -25px;
+        left: 300px;
+        position: absolute;
+    }
+    div.dice:hover{
+        box-shadow: 2px 2px 25px #53ffab;
+    }
+    p.numAdvice{
+        color: #53ffab;
+        font-family: manropeextralight;
+        letter-spacing: 3px;
+    }
+    p.quote{
+        font-size: 28px;
+        color: hsl(193, 38%, 86%);
+    }
+    .mobile-img{
+        display: none;
+    }
+
+}
+
+
+
+
+
+/*color: hsl(193, 38%, 86%);
+    color: hsl(150, 100%, 66%);
+    color: hsl(217, 19%, 38%);
+    color: hsl(217, 19%, 24%);
+    color: hsl(218, 23%, 16%);*/
