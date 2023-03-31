@@ -27,23 +27,30 @@ body{
 .desktop-img{
     display: none;
 }
+p.mes{
+    padding-top: 5px;
+    font-size: 38px;
+    text-align: center;
+    color: #53ffab;
+    font-family: manropeextralight;
+}
 div.dice{
     background-color: hsl(150, 100%, 66%);
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 div.dice img{
-    width: 18px;
-    height: 18px;
-    padding-top: 10px;
+    width: 20px;
+    height: 20px;
+    padding-top: 14px;
 }
 div.padre{
     position: relative;
 }
 div.hijo{
-    bottom: -25px;
-    left: 158px;
+    bottom: -28px;
+    left: 152px;
     position: absolute;
     border-radius: 50%;
 }
@@ -69,9 +76,8 @@ p.quote{
         background-color: hsl(218, 23%, 16%);
     }
     .contenedor{
-        top: 370px;
         margin: 0 auto;
-        margin-top: 80px;
+        margin-top: -90px;
         transform: translateY(14vw);
     }
     .card{
@@ -115,6 +121,12 @@ p.quote{
     p.quote{
         font-size: 28px;
         color: hsl(193, 38%, 86%);
+    }
+    p.mes{
+        font-size: 40px;
+        text-align: center;
+        color: #53ffab;
+        font-family: manropeextralight;
     }
     .mobile-img{
         display: none;
