@@ -5,9 +5,9 @@ body{
 
 }
 .contenedor{
-    top: 370px;
+    top: 250px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 180px;
 }
 
 .card{
@@ -45,9 +45,15 @@ div.hijo{
     bottom: -25px;
     left: 158px;
     position: absolute;
+    border-radius: 50%;
 }
+/*
 div.dice:hover{
     box-shadow: 2px 2px 25px 1px #53ffab;
+}*/
+div.dice:active{
+    background: #53ffab;
+    border-radius: 50%;
 }
 p.numAdvice{
     color: #53ffab;
@@ -58,12 +64,14 @@ p.quote{
     font-size: 28px;
     color: hsl(193, 38%, 86%);
 }
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 480px){
     body{
         background-color: hsl(218, 23%, 16%);
     }
     .contenedor{
-        top: 60%;
+        top: 370px;
+        margin: 0 auto;
+        margin-top: 80px;
         transform: translateY(14vw);
     }
     .card{
